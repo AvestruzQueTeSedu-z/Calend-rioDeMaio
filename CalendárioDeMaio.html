@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Maio 2023</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .calendar {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 500px;
+        }
+
+        .title {
+            background-color: #3498db;
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        .yellow {
+            background-color: #f39c12;
+            color: #fff;
+        }
+
+        .purple {
+            background-color: #9b59b6;
+            color: #fff;
+        }
+
+        #red {
+            color: #e74c3c;
+        }
+
+        .content {
+            margin-top: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="calendar">
+        <p class="title">Maio 2023</p>
+        <table>
+            <tr>
+                <th class="yellow">Dom</th>
+                <th>Seg</th>
+                <th>Ter</th>
+                <th>Qua</th>
+                <th>Qui</th>
+                <th>Sex</th>
+                <th class="purple">Sab</th>
+            </tr>
+            <tr>
+                <td class="yellow"></td>
+                <td id="red">1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td class="purple">6</td>
+            </tr>
+            <tr>
+                <td class="yellow" id="red">7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td class="purple">13</td>
+            </tr>
+            <tr>
+                <td class="yellow" id="red">14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td class="purple">20</td>
+            </tr>
+            <tr>
+                <td class="yellow" id="red">21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td class="purple">27</td>
+            </tr>
+            <tr>
+                <td class="yellow" id="red">28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td></td>
+                <td></td>
+                <td class="purple"></td>
+            </tr>
+        </table>
+        <p class="content" align="center">14: Dia das mães. 1: Dia do trabalho</p>
+        <p class="content" align="center">5: Lua Cheia. 12: Lua Minguante. 19: Nova 27: Lua Crescente.</p>
+    </div>
+</body>
+
+</html>
